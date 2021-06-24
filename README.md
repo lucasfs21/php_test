@@ -1,5 +1,8 @@
 # php_test
 Realizar CRUD em PHP consumindo webservice para consulta de CEP
+Sistemas de rotas utilizando o framework SLIM
+Banco de dados MySQL
+
 ### SQL COMMANDS
 ```sql
 CREATE SCHEMA `php_test` DEFAULT CHARACTER SET utf8 ;
