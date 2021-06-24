@@ -1,0 +1,18 @@
+{
+    "name": "lucas/php_test",
+    "description": "PHP Test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "lucasfs21",
+            "email": "lucasfs2105@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "app/", "Config\\": "config/"}
+    }
+}
