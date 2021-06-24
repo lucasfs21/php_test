@@ -1,6 +1,7 @@
 # php_test
 Realizar CRUD em PHP consumindo webservice para consulta de CEP
 ### SQL COMMANDS
+```sql
 CREATE SCHEMA `php_test` DEFAULT CHARACTER SET utf8 ;
 
 CREATE TABLE `php_test`.`clients` (
@@ -33,3 +34,4 @@ ADD CONSTRAINT `fk_address_1`
 
 ALTER TABLE `php_test`.`clients` 
 ADD COLUMN `birth_date` DATE NULL AFTER `gender`;
+```
